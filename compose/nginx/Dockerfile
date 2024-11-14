@@ -1,4 +1,4 @@
-FROM nginx:stable-alpine
+FROM nginx:1.26.2-alpine3.20
 
 # ADD Custom Config
 ADD ./compose/nginx/nginx.conf /etc/nginx/nginx.conf

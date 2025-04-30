@@ -1,4 +1,4 @@
-FROM php:8.2-fpm-alpine
+FROM php:8.4.7RC1-fpm-alpine
 
 # Copy File Config
 ADD ./compose/php/www.conf /usr/local/etc/php-fpm.d/www.conf
